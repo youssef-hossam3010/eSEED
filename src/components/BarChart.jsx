@@ -12,7 +12,7 @@ import {
 ChartJS.register(BarElement, CategoryScale, LinearScale, Tooltip, Legend);
 
 function BarChart() {
-  const apiKey = "GhSyxn6jK5fVP3OHo1VP0Hls4g3jEPXx";
+  const apiKey = "MYlBc5fWEOEZOZAY9LpxRP4QKjT9QJ45";
   const [data, setData] = useState({ labels: [], datasets: [] });
 
   useEffect(() => {
