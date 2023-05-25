@@ -17,7 +17,7 @@ function LineChartt() {
   useEffect(() => {
     const fetchData = async () => {
       var myHeaders = new Headers();
-      myHeaders.append("apikey", "GhSyxn6jK5fVP3OHo1VP0Hls4g3jEPXx");
+      myHeaders.append("apikey", "MYlBc5fWEOEZOZAY9LpxRP4QKjT9QJ45");
 
       var requestOptions = {
         method: "GET",
