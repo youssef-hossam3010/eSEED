@@ -26,7 +26,7 @@ function App() {
     } else {
       setShowBarChart(storedShowBarChart === 'true');
     }
-  }, []);
+  }, [showBarChart, showLineChart]);
 
   useEffect(() => {
     const storedShowLineChart = localStorage.getItem('showLineChart');
